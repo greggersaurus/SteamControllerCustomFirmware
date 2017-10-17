@@ -1,0 +1,325 @@
+Archive member included to satisfy reference by file (symbol)
+
+/Applications/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc11uxx.o (__main)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 ./src/SteamControllerDevKit.o
+ .group         0x0000000000000000        0x8 ./src/SteamControllerDevKit.o
+ .group         0x0000000000000000        0x8 ./src/SteamControllerDevKit.o
+ .group         0x0000000000000000        0x8 ./src/SteamControllerDevKit.o
+ .group         0x0000000000000000        0x8 ./src/SteamControllerDevKit.o
+ .text          0x0000000000000000        0x0 ./src/SteamControllerDevKit.o
+ .data          0x0000000000000000        0x0 ./src/SteamControllerDevKit.o
+ .bss           0x0000000000000000        0x0 ./src/SteamControllerDevKit.o
+ .text          0x0000000000000000        0x0 ./src/aeabi_romdiv_patch.o
+ .data          0x0000000000000000        0x0 ./src/aeabi_romdiv_patch.o
+ .bss           0x0000000000000000        0x0 ./src/aeabi_romdiv_patch.o
+ .ARM.attributes
+                0x0000000000000000       0x21 ./src/aeabi_romdiv_patch.o
+ .group         0x0000000000000000        0x8 ./src/cr_startup_lpc11uxx.o
+ .text          0x0000000000000000        0x0 ./src/cr_startup_lpc11uxx.o
+ .data          0x0000000000000000        0x0 ./src/cr_startup_lpc11uxx.o
+ .bss           0x0000000000000000        0x0 ./src/cr_startup_lpc11uxx.o
+ .debug_macro   0x0000000000000000      0x83e ./src/cr_startup_lpc11uxx.o
+ .group         0x0000000000000000        0x8 ./src/crp.o
+ .group         0x0000000000000000        0x8 ./src/crp.o
+ .text          0x0000000000000000        0x0 ./src/crp.o
+ .data          0x0000000000000000        0x0 ./src/crp.o
+ .bss           0x0000000000000000        0x0 ./src/crp.o
+ .crp           0x0000000000000000        0x4 ./src/crp.o
+ .debug_info    0x0000000000000000       0x3f ./src/crp.o
+ .debug_abbrev  0x0000000000000000       0x36 ./src/crp.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./src/crp.o
+ .debug_macro   0x0000000000000000       0x1a ./src/crp.o
+ .debug_macro   0x0000000000000000      0x83e ./src/crp.o
+ .debug_macro   0x0000000000000000       0x34 ./src/crp.o
+ .debug_line    0x0000000000000000       0x7f ./src/crp.o
+ .debug_str     0x0000000000000000     0x24c7 ./src/crp.o
+ .comment       0x0000000000000000       0x6f ./src/crp.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./src/crp.o
+ .text          0x0000000000000000        0x0 /Applications/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .data          0x0000000000000000        0x0 /Applications/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+ .bss           0x0000000000000000        0x0 /Applications/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash128        0x0000000000000000 0x0000000000020000 xr
+RamLoc8          0x0000000010000000 0x0000000000002000 xrw
+RamUsb2          0x0000000020004000 0x0000000000000800 xrw
+SRAM1_2          0x0000000020000000 0x0000000000000800 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/SteamControllerDevKit.o
+LOAD ./src/aeabi_romdiv_patch.o
+LOAD ./src/cr_startup_lpc11uxx.o
+LOAD ./src/crp.o
+START GROUP
+LOAD /Applications/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a
+LOAD /Applications/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libcr_eabihelpers.a
+END GROUP
+                0x0000000000000000                __base_MFlash128 = 0x0
+                0x0000000000000000                __base_Flash = 0x0
+                0x0000000000020000                __top_MFlash128 = 0x20000
+                0x0000000000020000                __top_Flash = 0x20000
+                0x0000000010000000                __base_RamLoc8 = 0x10000000
+                0x0000000010000000                __base_RAM = 0x10000000
+                0x0000000010002000                __top_RamLoc8 = 0x10002000
+                0x0000000010002000                __top_RAM = 0x10002000
+                0x0000000020004000                __base_RamUsb2 = 0x20004000
+                0x0000000020004000                __base_RAM2 = 0x20004000
+                0x0000000020004800                __top_RamUsb2 = 0x20004800
+                0x0000000020004800                __top_RAM2 = 0x20004800
+                0x0000000020000000                __base_SRAM1_2 = 0x20000000
+                0x0000000020000000                __base_RAM3 = 0x20000000
+                0x0000000020000800                __top_SRAM1_2 = 0x20000800
+                0x0000000020000800                __top_RAM3 = 0x20000800
+
+.text           0x0000000000000000      0x538
+ FILL mask 0xff
+                0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xc0 ./src/cr_startup_lpc11uxx.o
+                0x0000000000000000                g_pfnVectors
+                0x00000000000000c0                . = ALIGN (0x4)
+                0x00000000000000c0                __section_table_start = .
+                0x00000000000000c0                __data_section_table = .
+                0x00000000000000c0        0x4 LONG 0x538 LOADADDR (.data)
+                0x00000000000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x00000000000000c8        0x4 LONG 0x0 SIZEOF (.data)
+                0x00000000000000cc        0x4 LONG 0x538 LOADADDR (.data_RAM2)
+                0x00000000000000d0        0x4 LONG 0x20004000 ADDR (.data_RAM2)
+                0x00000000000000d4        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x00000000000000d8        0x4 LONG 0x538 LOADADDR (.data_RAM3)
+                0x00000000000000dc        0x4 LONG 0x20000000 ADDR (.data_RAM3)
+                0x00000000000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM3)
+                0x00000000000000e4                __data_section_table_end = .
+                0x00000000000000e4                __bss_section_table = .
+                0x00000000000000e4        0x4 LONG 0x10000000 ADDR (.bss)
+                0x00000000000000e8        0x4 LONG 0x4 SIZEOF (.bss)
+                0x00000000000000ec        0x4 LONG 0x20004000 ADDR (.bss_RAM2)
+                0x00000000000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x00000000000000f4        0x4 LONG 0x20000000 ADDR (.bss_RAM3)
+                0x00000000000000f8        0x4 LONG 0x0 SIZEOF (.bss_RAM3)
+                0x00000000000000fc                __bss_section_table_end = .
+                0x00000000000000fc                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x00000000000000fc      0x120 ./src/cr_startup_lpc11uxx.o
+                0x00000000000000fc                data_init
+                0x000000000000013c                bss_init
+                0x0000000000000170                ResetISR
+                0x00000000000001ec                NMI_Handler
+                0x00000000000001f4                HardFault_Handler
+                0x00000000000001fc                SVC_Handler
+                0x0000000000000204                PendSV_Handler
+                0x000000000000020c                SysTick_Handler
+                0x0000000000000214                USBWakeup_IRQHandler
+                0x0000000000000214                FLEX_INT0_IRQHandler
+                0x0000000000000214                FLEX_INT2_IRQHandler
+                0x0000000000000214                TIMER16_1_IRQHandler
+                0x0000000000000214                USB_FIQHandler
+                0x0000000000000214                FLEX_INT5_IRQHandler
+                0x0000000000000214                ADC_IRQHandler
+                0x0000000000000214                SSP1_IRQHandler
+                0x0000000000000214                FLEX_INT3_IRQHandler
+                0x0000000000000214                USB_IRQHandler
+                0x0000000000000214                BOD_IRQHandler
+                0x0000000000000214                I2C_IRQHandler
+                0x0000000000000214                WDT_IRQHandler
+                0x0000000000000214                GINT0_IRQHandler
+                0x0000000000000214                FLEX_INT4_IRQHandler
+                0x0000000000000214                FLEX_INT6_IRQHandler
+                0x0000000000000214                FMC_IRQHandler
+                0x0000000000000214                TIMER16_0_IRQHandler
+                0x0000000000000214                GINT1_IRQHandler
+                0x0000000000000214                UART_IRQHandler
+                0x0000000000000214                TIMER32_0_IRQHandler
+                0x0000000000000214                FLEX_INT7_IRQHandler
+                0x0000000000000214                TIMER32_1_IRQHandler
+                0x0000000000000214                FLEX_INT1_IRQHandler
+                0x0000000000000214                IntDefaultHandler
+                0x0000000000000214                SSP0_IRQHandler
+ *(.text*)
+ .text.pwrAnalogBlock
+                0x000000000000021c       0x4c ./src/SteamControllerDevKit.o
+                0x000000000000021c                pwrAnalogBlock
+ .text.main     0x0000000000000268      0x2c8 ./src/SteamControllerDevKit.o
+                0x0000000000000268                main
+ .text.__weak_main
+                0x0000000000000530        0x8 /Applications/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                0x0000000000000530                __main
+                0x0000000000000530                __weak_main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x0000000000000538                . = ALIGN (0x4)
+
+.glue_7         0x0000000000000538        0x0
+ .glue_7        0x0000000000000538        0x0 linker stubs
+
+.glue_7t        0x0000000000000538        0x0
+ .glue_7t       0x0000000000000538        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000538        0x0
+ .vfp11_veneer  0x0000000000000538        0x0 linker stubs
+
+.v4_bx          0x0000000000000538        0x0
+ .v4_bx         0x0000000000000538        0x0 linker stubs
+
+.iplt           0x0000000000000538        0x0
+ .iplt          0x0000000000000538        0x0 ./src/SteamControllerDevKit.o
+
+.rel.dyn        0x0000000000000538        0x0
+ .rel.iplt      0x0000000000000538        0x0 ./src/SteamControllerDevKit.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000000538                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000000000538                __exidx_end = .
+                0x0000000000000538                _etext = .
+
+.data_RAM2      0x0000000020004000        0x0 load address 0x0000000000000538
+ FILL mask 0xff
+                [!provide]                        PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamUsb2)
+ *(.data.$RAM2*)
+ *(.data.$RamUsb2*)
+                0x0000000020004000                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__end_data_RAM2, .)
+
+.data_RAM3      0x0000000020000000        0x0 load address 0x0000000000000538
+ FILL mask 0xff
+                [!provide]                        PROVIDE (__start_data_RAM3, .)
+ *(.ramfunc.$RAM3)
+ *(.ramfunc.$SRAM1_2)
+ *(.data.$RAM3*)
+ *(.data.$SRAM1_2*)
+                0x0000000020000000                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__end_data_RAM3, .)
+
+.uninit_RESERVED
+                0x0000000010000000        0x0
+ *(.bss.$RESERVED*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _end_uninit_RESERVED = .
+
+.data           0x0000000010000000        0x0 load address 0x0000000000000538
+ FILL mask 0xff
+                0x0000000010000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _edata = .
+
+.igot.plt       0x0000000010000000        0x0 load address 0x0000000000000538
+ .igot.plt      0x0000000010000000        0x0 ./src/SteamControllerDevKit.o
+
+.bss_RAM2       0x0000000020004000        0x0
+                [!provide]                        PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamUsb2*)
+                0x0000000020004000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                        PROVIDE (__end_bss_RAM2, .)
+
+.bss_RAM3       0x0000000020000000        0x0
+                [!provide]                        PROVIDE (__start_bss_RAM3, .)
+ *(.bss.$RAM3*)
+ *(.bss.$SRAM1_2*)
+                0x0000000020000000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                        PROVIDE (__end_bss_RAM3, .)
+
+.bss            0x0000000010000000        0x4
+                0x0000000010000000                _bss = .
+ *(.bss*)
+ .bss.i.3880    0x0000000010000000        0x4 ./src/SteamControllerDevKit.o
+ *(COMMON)
+                0x0000000010000004                . = ALIGN (0x4)
+                0x0000000010000004                _ebss = .
+                [!provide]                        PROVIDE (end, .)
+
+.noinit_RAM2    0x0000000020004000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamUsb2*)
+                0x0000000020004000                . = ALIGN (0x4)
+
+.noinit_RAM3    0x0000000020000000        0x0
+ *(.noinit.$RAM3*)
+ *(.noinit.$SRAM1_2*)
+                0x0000000020000000                . = ALIGN (0x4)
+
+.noinit         0x0000000010000004        0x0
+                0x0000000010000004                _noinit = .
+ *(.noinit*)
+                0x0000000010000004                . = ALIGN (0x4)
+                0x0000000010000004                _end_noinit = .
+                [!provide]                        PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x0000000010002000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc8 - 0x0))
+                0xffffffffefffdaad                PROVIDE (__valid_user_code_checksum, (0x0 - (((_vStackTop + (ResetISR + 0x1)) + (DEFINED (NMI_Handler)?NMI_Handler:M0_NMI_Handler + 0x1)) + (DEFINED (HardFault_Handler)?HardFault_Handler:M0_HardFault_Handler + 0x1))))
+OUTPUT(SteamControllerDevKit.axf elf32-littlearm)
+
+.debug_info     0x0000000000000000      0x33a
+ .debug_info    0x0000000000000000      0x133 ./src/SteamControllerDevKit.o
+ .debug_info    0x0000000000000133      0x207 ./src/cr_startup_lpc11uxx.o
+
+.debug_abbrev   0x0000000000000000      0x1ab
+ .debug_abbrev  0x0000000000000000       0xb6 ./src/SteamControllerDevKit.o
+ .debug_abbrev  0x00000000000000b6       0xf5 ./src/cr_startup_lpc11uxx.o
+
+.debug_aranges  0x0000000000000000       0x88
+ .debug_aranges
+                0x0000000000000000       0x28 ./src/SteamControllerDevKit.o
+ .debug_aranges
+                0x0000000000000028       0x60 ./src/cr_startup_lpc11uxx.o
+
+.debug_ranges   0x0000000000000000       0x68
+ .debug_ranges  0x0000000000000000       0x18 ./src/SteamControllerDevKit.o
+ .debug_ranges  0x0000000000000018       0x50 ./src/cr_startup_lpc11uxx.o
+
+.debug_macro    0x0000000000000000     0x1011
+ .debug_macro   0x0000000000000000       0x45 ./src/SteamControllerDevKit.o
+ .debug_macro   0x0000000000000045      0x83e ./src/SteamControllerDevKit.o
+ .debug_macro   0x0000000000000883       0x82 ./src/SteamControllerDevKit.o
+ .debug_macro   0x0000000000000905       0x10 ./src/SteamControllerDevKit.o
+ .debug_macro   0x0000000000000915      0x12d ./src/SteamControllerDevKit.o
+ .debug_macro   0x0000000000000a42      0x5b2 ./src/SteamControllerDevKit.o
+ .debug_macro   0x0000000000000ff4       0x1d ./src/cr_startup_lpc11uxx.o
+
+.debug_line     0x0000000000000000      0x2cd
+ .debug_line    0x0000000000000000      0x213 ./src/SteamControllerDevKit.o
+ .debug_line    0x0000000000000213       0xba ./src/cr_startup_lpc11uxx.o
+
+.debug_str      0x0000000000000000     0x40ce
+ .debug_str     0x0000000000000000     0x3f4c ./src/SteamControllerDevKit.o
+                                       0x3fc5 (size before relaxing)
+ .debug_str     0x0000000000003f4c      0x182 ./src/cr_startup_lpc11uxx.o
+                                       0x2566 (size before relaxing)
+
+.comment        0x0000000000000000       0xdc
+ .comment       0x0000000000000000       0x6e ./src/SteamControllerDevKit.o
+                                         0x6f (size before relaxing)
+ .comment       0x000000000000006e       0x6f ./src/cr_startup_lpc11uxx.o
+ .comment       0x000000000000006e       0x6e /Applications/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+                                         0x6f (size before relaxing)
+
+.ARM.attributes
+                0x0000000000000000       0x2f
+ .ARM.attributes
+                0x0000000000000000       0x31 ./src/SteamControllerDevKit.o
+ .ARM.attributes
+                0x0000000000000031       0x31 ./src/cr_startup_lpc11uxx.o
+ .ARM.attributes
+                0x0000000000000062       0x31 /Applications/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libcr_c.a(__weak__main.o)
+
+.debug_frame    0x0000000000000000      0x168
+ .debug_frame   0x0000000000000000       0x50 ./src/SteamControllerDevKit.o
+ .debug_frame   0x0000000000000050      0x118 ./src/cr_startup_lpc11uxx.o
