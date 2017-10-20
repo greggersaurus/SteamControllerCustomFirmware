@@ -1,5 +1,11 @@
 # Introduction
 
+THIS PROJECT IS DEFUNCT. 
+
+Please refer see the DevBoard subproject in [Steam Controller Customize](https://github.com/greggersaurus/SteamControllerCustomize) 
+ for continued development on this effort. 
+
+
 The purpose of this project is to create a firmware.bin file to load onto the
  Steam Controller. Ideas for what this firmware might do would be to allow
  access to the LPC11U37 Boot ROM or EEPROM. 
